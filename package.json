@@ -28,7 +28,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-environment": "^2.2.55",
+    "@balena/jellyfish-environment": "^2.2.56",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
   },
@@ -47,7 +47,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "husky": "^4.3.0",
     "jsdoc-to-markdown": "^6.0.1",
-    "lint-staged": "^10.5.1"
+    "lint-staged": "^10.5.2"
   },
   "husky": {
     "hooks": {
