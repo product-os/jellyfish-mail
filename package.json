@@ -48,8 +48,9 @@
   },
   "lint-staged": {
     "*.js": [
-      "npm run lint-fix",
-      "npm run doc"
+      "balena-lint -e js --typescript --fix",
+      "npm run doc",
+      "git add ."
     ]
   }
 }
