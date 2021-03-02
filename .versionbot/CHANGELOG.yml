@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^2.4.23'
+      hash: 4371aed2b76fcc90553926cdad4315f8b11fc028
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.199
+  date: 2021-03-02T05:49:41.465Z
+- commits:
     - subject: 'patch: Update dependency husky to ^5.1.3'
       hash: 14964a1aa7e00cba8fdc9c5d41b251fc4803109f
       body: ''
