@@ -1,4 +1,17 @@
 - commits:
+    - subject: Test jellyfish-environment/pull/175
+      hash: 6a687784f47fc3df810547f31483f369305e78ba
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 0.0.203
+  date: 2021-03-17T01:14:21.230Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^2.4.26'
       hash: 8ad0509c595310229454a84f0d851bb41eaeda6a
       body: ''
