@@ -1,4 +1,17 @@
 - commits:
+    - subject: Publish docs with GitHub action
+      hash: 7784fc51f597abd57791b363c2fe4d20cba55916
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 0.0.205
+  date: 2021-03-25T01:13:41.047Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: e6da7dd8dab6188459c8ab5da6a5fab0f467acbd
       body: ''
