@@ -4,14 +4,13 @@
  * Proprietary and confidential.
  */
 
-const ava = require('ava');
-const Mailgun = require('./index');
+import { Mailgun } from './index';
 
-ava('Can create Mailgun integration instance', async (test) => {
+test('Can create Mailgun integration instance', async () => {
 	const mailgun = new Mailgun({
 		token: '1234',
 		domain: 'example.com',
 		baseUrl: 'https://api.mailgun.net/v3',
 	});
-	test.truthy(mailgun);
+	expect(mailgun).toBeTruthy();
 });
