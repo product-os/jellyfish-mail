@@ -24,7 +24,7 @@
   "scripts": {
     "lint": "balena-lint -e js --typescript lib && jellycheck && deplint && depcheck --ignores=shellcheck",
     "lint-fix": "balena-lint -e js --typescript --fix lib",
-    "test": "npm run doc && catch-uncommitted --skip-node-versionbot-changes && make lint && make test",
+    "test": "catch-uncommitted --skip-node-versionbot-changes && make lint && make test",
     "doc": "jsdoc2md --template doc/README.hbs lib/index.js lib/mailgun/index.js > README.md",
     "postinstall": "if [ -z \"$CI\" ] && [ -d \".git\" ]; then husky install; fi"
   },
@@ -49,7 +49,6 @@
   "lint-staged": {
     "*.js": [
       "balena-lint -e js --typescript --fix",
-      "npm run doc",
       "git add ."
     ]
   }
