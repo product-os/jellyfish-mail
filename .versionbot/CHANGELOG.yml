@@ -1,4 +1,17 @@
 - commits:
+    - subject: Split up tsconfig
+      hash: 735c5db51ba80e78d7ebd5b9c2d0d0e90f4aa028
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.5
+  date: 2021-03-30T09:00:01.219Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.0.5'
       hash: dc8e21a197c953f6eafaee764b33842ce849c8d0
       body: ''
