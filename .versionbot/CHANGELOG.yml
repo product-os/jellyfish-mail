@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.0.6'
+      hash: bddfed07a4bb1b6d7bf691511f0f92eb49683754
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.6
+  date: 2021-03-30T09:10:31.234Z
+- commits:
     - subject: Split up tsconfig
       hash: 735c5db51ba80e78d7ebd5b9c2d0d0e90f4aa028
       body: ''
