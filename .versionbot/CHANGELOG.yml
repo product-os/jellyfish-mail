@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency simple-git-hooks to ^2.4.1'
+      hash: 9a8b6de417d56290f3fc0e92d6b54f2d0b08b1c4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.15
+  date: 2021-04-24T11:57:20.842Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.1.5'
       hash: e552450b5844cf9f2d32ea8f46f30cd84658dec8
       body: ''
