@@ -1,4 +1,27 @@
 - commits:
+    - subject: 'build(deps): bump hosted-git-info from 2.8.8 to 2.8.9'
+      hash: 4d2f37efc1472a1bcf446590533ae68f38cf7a83
+      body: >
+        Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from
+        2.8.8 to 2.8.9.
+
+        - [Release notes](https://github.com/npm/hosted-git-info/releases)
+
+        -
+        [Changelog](https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md)
+
+        -
+        [Commits](https://github.com/npm/hosted-git-info/compare/v2.8.8...v2.8.9)
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 'dependabot[bot] <support@github.com>'
+        signed-off-by: 'dependabot[bot] <support@github.com>'
+      author: 'dependabot[bot]'
+      nested: []
+  version: 1.0.25
+  date: 2021-05-08T06:40:20.351Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.1.11'
       hash: ee01afb0a41e3403b8e36640b127b0fd60939a3e
       body: ''
