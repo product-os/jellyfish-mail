@@ -1,4 +1,23 @@
 - commits:
+    - subject: 'build(deps): bump lodash from 4.17.19 to 4.17.21'
+      hash: a1ad78afb33bb54983795df7e702bd7d908dbe2f
+      body: >
+        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.19 to
+        4.17.21.
+
+        - [Release notes](https://github.com/lodash/lodash/releases)
+
+        - [Commits](https://github.com/lodash/lodash/compare/4.17.19...4.17.21)
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 'dependabot[bot] <support@github.com>'
+        signed-off-by: 'dependabot[bot] <support@github.com>'
+      author: 'dependabot[bot]'
+      nested: []
+  version: 1.0.27
+  date: 2021-05-09T00:09:57.794Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.1.12'
       hash: ccbb8444acb9458d6bcf2251916e9eab5facc958
       body: ''
