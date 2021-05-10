@@ -18,15 +18,3 @@ export interface MailgunIntegration extends MailIntegration {
 	requestDomain: string;
 	auth: MailgunAuth;
 }
-
-export interface MailgunRequestOptions {
-	method: string;
-	auth: MailgunAuth;
-	uri: string;
-	formData: {
-		from: string;
-		to: string;
-		subject: string;
-		html: string;
-	};
-}

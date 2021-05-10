@@ -5,13 +5,10 @@
  */
 
 import { MailOptions } from '@balena/jellyfish-environment';
-import request from 'request-promise';
+import axios from 'axios';
+import FormData from 'form-data';
 import { SendEmailOptions } from '../types';
-import {
-	MailgunAuth,
-	MailgunIntegration,
-	MailgunRequestOptions,
-} from './types';
+import { MailgunAuth, MailgunIntegration } from './types';
 
 export class Mailgun implements MailgunIntegration {
 	public options: MailOptions;
@@ -50,17 +47,19 @@ export class Mailgun implements MailgunIntegration {
 		const from = options.fromAddress
 			? options.fromAddress
 			: `Jel.ly.fish <no-reply@${this.domain}>`;
-		const requestOptions: MailgunRequestOptions = {
-			method: 'POST',
-			auth: this.auth,
-			uri: `${this.requestDomain}/messages`,
-			formData: {
-				from,
-				to: options.toAddress,
-				subject: options.subject,
-				html: options.html,
+
+		const form = new FormData();
+		form.append('from', from);
+		form.append('to', options.toAddress);
+		form.append('subject', options.subject);
+		form.append('html', options.html);
+
+		return await axios.post(`${this.requestDomain}/messages`, form, {
+			auth: {
+				username: this.auth.user,
+				password: this.auth.pass,
 			},
-		};
-		return request(requestOptions);
+			headers: form.getHeaders(),
+		});
 	}
 }
