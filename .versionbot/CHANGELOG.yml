@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 7567c5e85efc2caa254a06185f7035bf9c63a60f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.28
+  date: 2021-05-11T08:23:10.435Z
+- commits:
     - subject: 'build(deps): bump lodash from 4.17.19 to 4.17.21'
       hash: a1ad78afb33bb54983795df7e702bd7d908dbe2f
       body: >
