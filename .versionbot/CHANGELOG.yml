@@ -1,4 +1,17 @@
 - commits:
+    - subject: Replace request-promise with axios
+      hash: 9395f9967d474eaf4844daaa416e7db09d63626a
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.0
+  date: 2021-05-12T06:18:30.934Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: 7567c5e85efc2caa254a06185f7035bf9c63a60f
       body: ''
