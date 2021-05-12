@@ -8,11 +8,7 @@ import { defaultEnvironment, Mail } from '@balena/jellyfish-environment';
 import { Mailgun } from './mailgun';
 import { MailIntegration } from './types';
 export { MailIntegration, SendEmailOptions } from './types';
-export {
-	MailgunIntegration,
-	MailgunAuth,
-	MailgunRequestOptions,
-} from './mailgun/types';
+export { MailgunIntegration, MailgunAuth } from './mailgun/types';
 
 /**
  * @summary Return mail integration depending on mail type environment variable
