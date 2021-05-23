@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use jellyfish-config
+      hash: b91776081db421982853da28ca852629171d953b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.1
+  date: 2021-05-23T01:11:40.867Z
+- commits:
     - subject: Replace request-promise with axios
       hash: 9395f9967d474eaf4844daaa416e7db09d63626a
       body: ''
