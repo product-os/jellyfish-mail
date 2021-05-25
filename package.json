@@ -45,13 +45,13 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-environment": "^4.1.17",
+    "@balena/jellyfish-environment": "^4.1.18",
     "axios": "^0.21.1",
     "form-data": "^4.0.0"
   },
   "devDependencies": {
     "@balena/jellycheck": "^0.1.1",
-    "@balena/jellyfish-config": "^1.0.6",
+    "@balena/jellyfish-config": "^1.0.7",
     "@balena/lint": "^6.1.1",
     "@types/axios": "^0.14.0",
     "@types/jest": "^26.0.23",
