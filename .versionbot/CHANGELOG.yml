@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.1.27'
+      hash: 188b80150fc0277b89e9457ff4a6eed7b11711f8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.20
+  date: 2021-05-29T07:13:00.767Z
+- commits:
     - subject: 'build(deps): bump ws from 7.4.4 to 7.4.6'
       hash: 1c8bceb48c202469578376185ec037bbb7b6312c
       body: |
