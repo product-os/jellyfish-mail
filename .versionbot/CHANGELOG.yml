@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.0'
+      hash: 097ddff718111a9db0fa850afe3a0883c4474c33
+      body: |
+        Update @balena/jellyfish-environment from 4.2.7 to 4.3.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.49
+  date: 2021-06-24T14:14:02.349Z
+- commits:
     - subject: Bump jest to v27.0.5
       hash: 12e87ece6343cb4719237f47fed66a9be3030812
       body: ''
