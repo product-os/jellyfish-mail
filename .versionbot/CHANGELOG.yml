@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency nock to ^13.1.1'
+      hash: 93e3310aec5eb404e3a80870daa347dcb37da2ae
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.62
+  date: 2021-07-04T18:48:00.938Z
+- commits:
     - subject: Remove stubbed types/axios dependency
       hash: 9bc2cf83e1dd10ce86f2ea49552dd5781196d05d
       body: ''
