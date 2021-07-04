@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove stubbed types/axios dependency
+      hash: 9bc2cf83e1dd10ce86f2ea49552dd5781196d05d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.61
+  date: 2021-07-04T14:08:20.047Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 5b3b9b45673ee1757b917e02919e5f03ff4a2940
       body: ''
