@@ -52,7 +52,6 @@
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-config": "^1.4.2",
     "@balena/lint": "^6.1.1",
-    "@types/axios": "^0.14.0",
     "@types/jest": "^26.0.23",
     "depcheck": "^1.4.2",
     "deplint": "^1.1.3",
