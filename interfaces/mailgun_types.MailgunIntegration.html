@@ -58,7 +58,7 @@
 					<a href="../modules/mailgun_types.html">mailgun/types</a>
 				</li>
 				<li>
-					<a href="mailgun_types.mailgunintegration.html">MailgunIntegration</a>
+					<a href="mailgun_types.MailgunIntegration.html">MailgunIntegration</a>
 				</li>
 			</ul>
 			<h1>Interface MailgunIntegration</h1>
@@ -72,7 +72,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<a href="types.mailintegration.html" class="tsd-signature-type" data-tsd-kind="Interface">MailIntegration</a>
+						<a href="types.MailIntegration.html" class="tsd-signature-type" data-tsd-kind="Interface">MailIntegration</a>
 						<ul class="tsd-hierarchy">
 							<li>
 								<span class="target">MailgunIntegration</span>
@@ -84,7 +84,7 @@
 			<section class="tsd-panel">
 				<h3>Implemented by</h3>
 				<ul class="tsd-hierarchy">
-					<li><a href="../classes/mailgun.mailgun-1.html" class="tsd-signature-type" data-tsd-kind="Class">Mailgun</a></li>
+					<li><a href="../classes/mailgun.Mailgun.html" class="tsd-signature-type" data-tsd-kind="Class">Mailgun</a></li>
 				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
@@ -94,11 +94,16 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mailgun_types.mailgunintegration.html#auth" class="tsd-kind-icon">auth</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mailgun_types.mailgunintegration.html#domain" class="tsd-kind-icon">domain</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mailgun_types.mailgunintegration.html#options" class="tsd-kind-icon">options</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mailgun_types.mailgunintegration.html#requestdomain" class="tsd-kind-icon">request<wbr>Domain</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mailgun_types.mailgunintegration.html#sendemail" class="tsd-kind-icon">send<wbr>Email</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mailgun_types.MailgunIntegration.html#auth" class="tsd-kind-icon">auth</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mailgun_types.MailgunIntegration.html#domain" class="tsd-kind-icon">domain</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mailgun_types.MailgunIntegration.html#options" class="tsd-kind-icon">options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mailgun_types.MailgunIntegration.html#requestDomain" class="tsd-kind-icon">request<wbr>Domain</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-inherited">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-inherited"><a href="mailgun_types.MailgunIntegration.html#sendEmail" class="tsd-kind-icon">send<wbr>Email</a></li>
 							</ul>
 						</section>
 					</div>
@@ -109,10 +114,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="auth" class="tsd-anchor"></a>
 					<h3>auth</h3>
-					<div class="tsd-signature tsd-kind-icon">auth<span class="tsd-signature-symbol">:</span> <a href="mailgun_types.mailgunauth.html" class="tsd-signature-type" data-tsd-kind="Interface">MailgunAuth</a></div>
+					<div class="tsd-signature tsd-kind-icon">auth<span class="tsd-signature-symbol">:</span> <a href="mailgun_types.MailgunAuth.html" class="tsd-signature-type" data-tsd-kind="Interface">MailgunAuth</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/mailgun/types.ts#L19">mailgun/types.ts:19</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/f62baa2/lib/mailgun/types.ts#L19">mailgun/types.ts:19</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -122,7 +127,7 @@
 					<div class="tsd-signature tsd-kind-icon">domain<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/mailgun/types.ts#L17">mailgun/types.ts:17</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/f62baa2/lib/mailgun/types.ts#L17">mailgun/types.ts:17</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -132,51 +137,46 @@
 					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">MailOptions</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/mailgun/types.ts#L16">mailgun/types.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/f62baa2/lib/mailgun/types.ts#L16">mailgun/types.ts:16</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="requestdomain" class="tsd-anchor"></a>
+					<a name="requestDomain" class="tsd-anchor"></a>
 					<h3>request<wbr>Domain</h3>
 					<div class="tsd-signature tsd-kind-icon">request<wbr>Domain<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/mailgun/types.ts#L18">mailgun/types.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/f62baa2/lib/mailgun/types.ts#L18">mailgun/types.ts:18</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-					<a name="sendemail" class="tsd-anchor"></a>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-inherited">
+					<a name="sendEmail" class="tsd-anchor"></a>
 					<h3>send<wbr>Email</h3>
-					<div class="tsd-signature tsd-kind-icon">send<wbr>Email<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="types.sendemailoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">SendEmailOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
-					<aside class="tsd-sources">
-						<p>Inherited from <a href="types.mailintegration.html">MailIntegration</a>.<a href="types.mailintegration.html#sendemail">sendEmail</a></p>
-						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/types.ts#L21">types.ts:21</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter-signature">
-								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-interface">
-									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="types.sendemailoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">SendEmailOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">send<wbr>Email<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="types.SendEmailOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">SendEmailOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="types.MailIntegration.html">MailIntegration</a>.<a href="types.MailIntegration.html#sendEmail">sendEmail</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/f62baa2/lib/types.ts#L21">types.ts:21</a></li>
 								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>options: <a href="types.sendemailoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">SendEmailOptions</a></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <a href="types.SendEmailOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">SendEmailOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -203,27 +203,27 @@
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="mailgun_types.mailgunauth.html" class="tsd-kind-icon">Mailgun<wbr>Auth</a>
+						<a href="mailgun_types.MailgunAuth.html" class="tsd-kind-icon">Mailgun<wbr>Auth</a>
 					</li>
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="mailgun_types.mailgunintegration.html" class="tsd-kind-icon">Mailgun<wbr>Integration</a>
+						<a href="mailgun_types.MailgunIntegration.html" class="tsd-kind-icon">Mailgun<wbr>Integration</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="mailgun_types.mailgunintegration.html#auth" class="tsd-kind-icon">auth</a>
+								<a href="mailgun_types.MailgunIntegration.html#auth" class="tsd-kind-icon">auth</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="mailgun_types.mailgunintegration.html#domain" class="tsd-kind-icon">domain</a>
+								<a href="mailgun_types.MailgunIntegration.html#domain" class="tsd-kind-icon">domain</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="mailgun_types.mailgunintegration.html#options" class="tsd-kind-icon">options</a>
+								<a href="mailgun_types.MailgunIntegration.html#options" class="tsd-kind-icon">options</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="mailgun_types.mailgunintegration.html#requestdomain" class="tsd-kind-icon">request<wbr>Domain</a>
+								<a href="mailgun_types.MailgunIntegration.html#requestDomain" class="tsd-kind-icon">request<wbr>Domain</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="mailgun_types.mailgunintegration.html#sendemail" class="tsd-kind-icon">send<wbr>Email</a>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mailgun_types.MailgunIntegration.html#sendEmail" class="tsd-kind-icon">send<wbr>Email</a>
 							</li>
 						</ul>
 					</li>

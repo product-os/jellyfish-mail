@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SendEmailOptions | @balena/jellyfish-mail</title>
+	<title>MailIntegration | @balena/jellyfish-mail</title>
 	<meta name="description" content="Documentation for @balena/jellyfish-mail">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -58,10 +58,10 @@
 					<a href="../modules/types.html">types</a>
 				</li>
 				<li>
-					<a href="types.sendemailoptions.html">SendEmailOptions</a>
+					<a href="types.MailIntegration.html">MailIntegration</a>
 				</li>
 			</ul>
-			<h1>Interface SendEmailOptions</h1>
+			<h1>Interface MailIntegration</h1>
 		</div>
 	</div>
 </header>
@@ -72,7 +72,12 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">SendEmailOptions</span>
+						<span class="target">MailIntegration</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<a href="mailgun_types.MailgunIntegration.html" class="tsd-signature-type" data-tsd-kind="Interface">MailgunIntegration</a>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</section>
@@ -81,58 +86,38 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Properties</h3>
+							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.sendemailoptions.html#fromaddress" class="tsd-kind-icon">from<wbr>Address</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.sendemailoptions.html#html" class="tsd-kind-icon">html</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.sendemailoptions.html#subject" class="tsd-kind-icon">subject</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.sendemailoptions.html#toaddress" class="tsd-kind-icon">to<wbr>Address</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="types.MailIntegration.html#sendEmail" class="tsd-kind-icon">send<wbr>Email</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="fromaddress" class="tsd-anchor"></a>
-					<h3>from<wbr>Address</h3>
-					<div class="tsd-signature tsd-kind-icon">from<wbr>Address<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/types.ts#L11">types.ts:11</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="html" class="tsd-anchor"></a>
-					<h3>html</h3>
-					<div class="tsd-signature tsd-kind-icon">html<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/types.ts#L13">types.ts:13</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="subject" class="tsd-anchor"></a>
-					<h3>subject</h3>
-					<div class="tsd-signature tsd-kind-icon">subject<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/types.ts#L12">types.ts:12</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="toaddress" class="tsd-anchor"></a>
-					<h3>to<wbr>Address</h3>
-					<div class="tsd-signature tsd-kind-icon">to<wbr>Address<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/724e204/lib/types.ts#L10">types.ts:10</a></li>
-						</ul>
-					</aside>
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="sendEmail" class="tsd-anchor"></a>
+					<h3>send<wbr>Email</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">send<wbr>Email<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="types.SendEmailOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">SendEmailOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/product-os/jellyfish-mail/blob/f62baa2/lib/types.ts#L21">types.ts:21</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <a href="types.SendEmailOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">SendEmailOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -158,33 +143,24 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="types.mailintegration.html" class="tsd-kind-icon">Mail<wbr>Integration</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="types.mailintegrationconstructor.html" class="tsd-kind-icon">Mail<wbr>Integration<wbr>Constructor</a>
-					</li>
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="types.sendemailoptions.html" class="tsd-kind-icon">Send<wbr>Email<wbr>Options</a>
+						<a href="types.MailIntegration.html" class="tsd-kind-icon">Mail<wbr>Integration</a>
 						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.sendemailoptions.html#fromaddress" class="tsd-kind-icon">from<wbr>Address</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.sendemailoptions.html#html" class="tsd-kind-icon">html</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.sendemailoptions.html#subject" class="tsd-kind-icon">subject</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.sendemailoptions.html#toaddress" class="tsd-kind-icon">to<wbr>Address</a>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="types.MailIntegration.html#sendEmail" class="tsd-kind-icon">send<wbr>Email</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="types.MailIntegrationConstructor.html" class="tsd-kind-icon">Mail<wbr>Integration<wbr>Constructor</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="types.SendEmailOptions.html" class="tsd-kind-icon">Send<wbr>Email<wbr>Options</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -200,7 +176,7 @@
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
