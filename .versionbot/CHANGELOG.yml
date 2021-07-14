@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.5'
+      hash: f47a13d711a0d89df4475e28dbcabd9e65ab1d53
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.71
+  date: 2021-07-14T06:58:58.189Z
+- commits:
     - subject: Fix jest config
       hash: a0ffcc88cf695e6b283cd40681ee6f5453e5d27f
       body: ''
