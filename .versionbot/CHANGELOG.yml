@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.17'
+      hash: afae704800da7f3fc030ca694813557c0b79b5cd
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.74
+  date: 2021-07-16T23:40:27.192Z
+- commits:
     - subject: Remove whitesource config
       hash: dc09b9147bd13dd0c87ad6e08e2ca27fae285000
       body: ''
