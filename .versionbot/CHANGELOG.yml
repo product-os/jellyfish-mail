@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.9'
+      hash: 51e627bec8ae2cef15b71963e98e0c222c1bae11
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.117
+  date: 2021-11-16T04:14:27.307Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.8'
       hash: 2f51406a4889549f229d03e139ac528118826ae0
       body: ''
