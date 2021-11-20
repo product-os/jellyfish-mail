@@ -1,9 +1,3 @@
-/*
- * Copyright (C) Balena.io - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- */
-
 import { MailOptions } from '@balena/jellyfish-environment';
 import axios from 'axios';
 import FormData from 'form-data';
