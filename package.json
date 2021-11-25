@@ -43,12 +43,12 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "Apache-2.0",
   "dependencies": {
-    "@balena/jellyfish-environment": "^5.1.19",
+    "@balena/jellyfish-environment": "^5.1.23",
     "axios": "^0.24.0",
     "form-data": "^4.0.0"
   },
   "devDependencies": {
-    "@balena/jellyfish-config": "^1.5.16",
+    "@balena/jellyfish-config": "^1.5.17",
     "@balena/lint": "^6.1.1",
     "@types/jest": "^27.0.3",
     "depcheck": "^1.4.2",
