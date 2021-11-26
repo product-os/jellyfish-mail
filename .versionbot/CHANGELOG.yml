@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use product-os/renovate-config
+      hash: ace16fb7f10b5db2c0a03375769c197ed1bfaa3a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.135
+  date: 2021-11-26T02:26:12.318Z
+- commits:
     - subject: 'patch: Update dependency typescript to ^4.5.2'
       hash: b3bac7b5bcf79b7c604778dd29bfb13b925cccc5
       body: |
