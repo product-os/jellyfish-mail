@@ -1,6 +1,6 @@
 {
   "name": "@balena/jellyfish-mail",
-  "version": "2.0.144",
+  "version": "2.0.145",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-mail.git"
@@ -66,6 +66,6 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2021-12-04T18:23:37.430Z"
+    "publishedAt": "2021-12-05T11:00:20.462Z"
   }
 }
