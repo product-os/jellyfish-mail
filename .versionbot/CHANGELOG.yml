@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^6.0.2'
+      hash: b308095816159549023939235ab7e2c517fa708f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.151
+  date: 2021-12-14T09:00:21.420Z
+- commits:
     - subject: 'Drop depcheck, bump typescript'
       hash: e5845c0d9ac4480cdb934c67ea99d7aa8f7690a0
       body: ''
