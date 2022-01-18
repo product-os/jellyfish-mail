@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency axios to ^0.25.0'
+      hash: 2956e30039662f77661a17539b2f2c25676ba7d3
+      body: |
+        Update axios from 0.24.0 to 0.25.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.164
+  date: 2022-01-18T09:37:23.026Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^6.0.9'
       hash: b4b3e52fa149663cffc9bc3990ec3884acdc84da
       body: ''
