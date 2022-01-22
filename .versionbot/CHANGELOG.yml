@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: eb722429d0f5034cf1e25d834ba5a490c1e7fa21
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.165
+  date: 2022-01-22T01:07:38.831Z
+- commits:
     - subject: 'patch: Update dependency typedoc to ^0.22.11'
       hash: 0120d6482d302d599bcee335e97dd9341e5526b9
       body: |
