@@ -1,3 +1,5 @@
+**Notice: This utility has been discontinued. The functionality provided by this utility has been moved to [`jellyfish-plugin-default`](https://github.com/product-os/jellyfish-plugin-default) with [this PR](https://github.com/product-os/jellyfish-plugin-default/pull/947).**
+
 # Jellyfish Mail
 
 This library contains email integration functionality for use in Jellyfish.
